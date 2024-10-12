@@ -1,0 +1,67 @@
+*{
+	font-style: arial;
+}
+@media screen and (min-width:701px){
+	body {
+		background: linear-gradient(black,grey);
+		background-repeat: no-repeat;
+		height: 100%;
+		margin: 0;
+		background-attachment: fixed;
+	}
+}
+
+h1 {
+  color: black;
+  background: skyblue;
+  width: 200px;
+}
+
+h2 {
+  color: brown;
+}
+
+p { 
+  color: yellow;
+}
+
+label {
+	color: yellow;
+}
+
+input {
+	color: black;
+}
+
+.quienessomos1 {
+	color: black; font-style: sans-serif;
+}
+.quienessomos2 {
+	color: skyblue; font-style: sans-serif;
+}
+.quienessomosp {
+	color: brown; font-style: sans-serif; font-weight: bold;
+}
+
+img {
+	opacity: 85%;
+}
+div {
+	background: greenyellow;
+	width: 55%;
+}
+
+@media screen and (min-width: 300px) {
+    body {
+        background-color: white;
+    }
+
+    p {
+        color: black;
+    }
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+}
